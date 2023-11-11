@@ -1,0 +1,53 @@
+1697542094724	geckodriver	INFO	Listening on 127.0.0.1:8752
+1697542097775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileeStzxd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697542098590	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697542098693	Marionette	INFO	Listening on port 8761
+WebDriver BiDi listening on ws://127.0.0.1:8753
+Read port: 8761
+1697542098973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:8753/devtools/browser/c4371a5e-de4d-4621-8f32-cd336b68f098
+1697542105554	Marionette	INFO	Stopped listening on port 8761
+Dynamically enable window occlusion 1
+1697592720129	geckodriver	INFO	Listening on 127.0.0.1:2069
+1697592723177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilepojnLH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697592724282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697592724385	Marionette	INFO	Listening on port 2084
+WebDriver BiDi listening on ws://127.0.0.1:2070
+Read port: 2084
+1697592724670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2070/devtools/browser/cd247258-73a9-4553-9cec-ce8f8b50dc81
+1697592729888	Marionette	INFO	Stopped listening on port 2084
+Dynamically enable window occlusion 1
+1697593043986	geckodriver	INFO	Listening on 127.0.0.1:2205
+1697593047070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2206" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileJHEzh5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697593047890	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697593047988	Marionette	INFO	Listening on port 2223
+WebDriver BiDi listening on ws://127.0.0.1:2206
+Read port: 2223
+1697593048245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2206/devtools/browser/e62b8d0b-6e5f-474a-84e8-45f13b45ff3e
+1697593055673	Marionette	INFO	Stopped listening on port 2223
+Dynamically enable window occlusion 1
+1697593094680	geckodriver	INFO	Listening on 127.0.0.1:2261
+1697593097753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileAx5gqy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697593098201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697593098291	Marionette	INFO	Listening on port 2272
+WebDriver BiDi listening on ws://127.0.0.1:2262
+Read port: 2272
+1697593098463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2262/devtools/browser/f1a1460e-f1f3-4ec0-a486-e9b7ae8f8552
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.11/index.js, line 1: WebGL context was lost.
+1697593104853	Marionette	INFO	Stopped listening on port 2272
+Dynamically enable window occlusion 1

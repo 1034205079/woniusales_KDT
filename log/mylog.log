@@ -1,0 +1,181 @@
+2023-10-17 09:31:17,460 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_login_api_01  -->用户-->登录-->输入正确的账号登录成功
+2023-10-17 09:31:17,461 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->发送登录请求
+2023-10-17 09:31:17,634 INFO runner_all_file_ci.py 29 --> 新创建了一个关键字实例--><woniusales_KDT.keyword.MyRequestsLibrary.MyRequestsLibrary object at 0x00000217AA11B7C0>
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->状态码断言
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->响应头断言
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->响应body断言
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_login_api_01 -->  pass
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_upload_api_01  -->批次管理-->批次上传-->输入正确的批次信息能成功上传
+2023-10-17 09:31:17,653 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->登录成功请求
+2023-10-17 09:31:17,662 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,662 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->上传批次请求
+2023-10-17 09:31:17,852 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,852 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->状态码断言
+2023-10-17 09:31:17,852 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,853 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->断言响应头content-type是json
+2023-10-17 09:31:17,853 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,853 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->断言结果长度
+2023-10-17 09:31:17,853 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,853 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_upload_api_01 -->  pass
+2023-10-17 09:31:17,854 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:31:17,854 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_customer_api_01  -->客户管理-->新增客户-->填写正确的手机号能新增成功
+2023-10-17 09:31:17,854 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->登录成功请求
+2023-10-17 09:31:17,865 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,866 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->发送新增请求
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->状态码断言
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->响应body断言
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_customer_api_01 -->  pass
+2023-10-17 09:31:17,879 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:31:17,880 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_customer_api_02  -->客户管理-->新增客户-->重复的手机号新增失败
+2023-10-17 09:31:17,880 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_customer_api_02 -->  skip
+2023-10-17 09:31:17,880 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:31:17,880 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_login_01  -->用户-->登录-->输入正确的账号登录成功
+2023-10-17 09:31:17,881 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->打开浏览器
+2023-10-17 09:31:18,067 INFO runner_all_file_ci.py 29 --> 新创建了一个关键字实例--><woniusales_KDT.keyword.MySeleniumLibrary.MySeleniumLibrary object at 0x00000217AA2D1DC0>
+2023-10-17 09:32:12,459 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:12,459 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->最大化浏览器
+2023-10-17 09:32:12,575 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:12,575 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入网址
+2023-10-17 09:32:12,819 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:12,819 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入用户名
+2023-10-17 09:32:13,031 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:13,031 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入密码
+2023-10-17 09:32:13,188 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:13,188 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入验证码
+2023-10-17 09:32:13,349 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:13,349 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击登录
+2023-10-17 09:32:13,437 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:13,437 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->断言
+2023-10-17 09:32:13,605 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:13,606 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->关闭浏览器
+2023-10-17 09:32:15,877 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:15,877 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_login_01 -->  pass
+2023-10-17 09:32:15,877 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:32:15,878 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_login_02  -->用户-->登录-->输入错误密码登录失败
+2023-10-17 09:32:15,878 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->打开浏览器
+2023-10-17 09:32:23,054 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,054 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->最大化浏览器
+2023-10-17 09:32:23,170 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,170 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入网址
+2023-10-17 09:32:23,392 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,393 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入错误的用户名
+2023-10-17 09:32:23,569 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,570 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入密码
+2023-10-17 09:32:23,705 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,705 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入验证码
+2023-10-17 09:32:23,826 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,826 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击登录
+2023-10-17 09:32:23,903 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:23,903 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->断言
+2023-10-17 09:32:24,501 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:24,502 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->关闭浏览器
+2023-10-17 09:32:26,773 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:26,773 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_login_02 -->  pass
+2023-10-17 09:32:26,773 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:32:26,773 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_login_03  -->用户-->登录-->输入正确的验证码登录失败
+2023-10-17 09:32:26,773 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->打开浏览器
+2023-10-17 09:32:33,631 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:33,631 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->最大化浏览器
+2023-10-17 09:32:33,749 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:33,749 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入网址
+2023-10-17 09:32:33,966 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:33,966 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入用户名
+2023-10-17 09:32:34,132 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:34,132 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入密码
+2023-10-17 09:32:34,263 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:34,264 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入验证码
+2023-10-17 09:32:34,400 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:34,400 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击登录
+2023-10-17 09:32:34,485 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:34,485 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->断言
+2023-10-17 09:32:35,087 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:35,088 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->关闭浏览器
+2023-10-17 09:32:37,387 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:37,387 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_login_03 -->  pass
+2023-10-17 09:32:37,387 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:32:37,388 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_batch_upload_01  -->批次管理-->批次导入-->通过pykeyboard输入正确的批次信息能成功导入
+2023-10-17 09:32:37,388 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->打开浏览器
+2023-10-17 09:32:44,381 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:44,381 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->最大化浏览器
+2023-10-17 09:32:44,497 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:44,497 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->设置隐式等待
+2023-10-17 09:32:44,498 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:44,499 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入网址
+2023-10-17 09:32:44,753 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:44,754 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入用户名
+2023-10-17 09:32:44,906 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:44,906 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入密码
+2023-10-17 09:32:45,044 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:45,044 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入验证码
+2023-10-17 09:32:45,172 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:45,172 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击登录
+2023-10-17 09:32:45,253 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:45,254 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->等待注销按钮出现
+2023-10-17 09:32:45,440 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:45,440 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击批次管理
+2023-10-17 09:32:45,619 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:45,619 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入批次名
+2023-10-17 09:32:46,124 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:46,124 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击输入批次名按钮
+2023-10-17 09:32:46,431 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:46,431 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->等待弹框出现
+2023-10-17 09:32:48,431 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:48,431 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->通过keyboard输入批次文件名
+2023-10-17 09:32:48,486 INFO runner_all_file_ci.py 29 --> 新创建了一个关键字实例--><woniusales_KDT.keyword.MyPyKeyBoardLibrary.MyPyKeyBoardLibrary object at 0x00000217AA2EB6A0>
+2023-10-17 09:32:48,505 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:48,505 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->通过keyboard点击确认
+2023-10-17 09:32:48,507 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:48,508 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->等待2秒
+2023-10-17 09:32:50,512 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:50,512 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击导入批次
+2023-10-17 09:32:50,587 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:50,587 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->校验导入的批次数量为5
+2023-10-17 09:32:50,803 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:50,804 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->关闭浏览器
+2023-10-17 09:32:53,062 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:53,062 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_batch_upload_01 -->  pass
+2023-10-17 09:32:53,062 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:32:53,063 INFO runner_all_file_ci.py 50 --> 开始执行用例-->test_customer_01  -->会员管理UI-->会员关联查询-->根据查询的所有内容，提取第一个电话，再查询
+2023-10-17 09:32:53,063 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->打开浏览器
+2023-10-17 09:32:59,997 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:32:59,997 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->最大化浏览器
+2023-10-17 09:33:00,115 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,115 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->设置隐式等待
+2023-10-17 09:33:00,116 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,116 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入网址
+2023-10-17 09:33:00,338 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,338 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入用户名
+2023-10-17 09:33:00,502 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,502 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入密码
+2023-10-17 09:33:00,648 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,648 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->输入验证码
+2023-10-17 09:33:00,777 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,778 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击登录
+2023-10-17 09:33:00,854 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:00,855 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->等待注销按钮出现
+2023-10-17 09:33:01,009 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:01,009 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击会员管理
+2023-10-17 09:33:01,213 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:01,213 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->点击查询按钮
+2023-10-17 09:33:01,285 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:01,285 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->获取第一个手机号码
+2023-10-17 09:33:01,878 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:01,878 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->手机查询框输入获取的第一个手机号码
+2023-10-17 09:33:02,003 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:02,003 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->会员昵称输入唯一的名字
+2023-10-17 09:33:02,160 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:02,160 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->等待10秒
+2023-10-17 09:33:12,162 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:12,162 INFO runner_all_file_ci.py 57 --> 开始执行步骤-->关闭浏览器
+2023-10-17 09:33:14,379 INFO runner_all_file_ci.py 72 -->   步骤执行  通过
+2023-10-17 09:33:14,379 INFO runner_all_file_ci.py 76 --> 结束执行用例-->test_customer_01 -->  pass
+2023-10-17 09:33:14,379 INFO runner_all_file_ci.py 77 --> ------------------------------------------------------------
+2023-10-17 09:33:14,379 INFO runner_all_file_ci.py 99 --> 所有用例执行完成：总数9,通过数：8,失败数：0，跳过数：1。
