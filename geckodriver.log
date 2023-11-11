@@ -1,0 +1,30 @@
+1696734790586	geckodriver	INFO	Listening on 127.0.0.1:3558
+1696734793656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3559" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileZOaXVb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696734794824	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696734794935	Marionette	INFO	Listening on port 3568
+WebDriver BiDi listening on ws://127.0.0.1:3559
+Read port: 3568
+1696734795234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3559/devtools/browser/83bdbaa6-a213-4088-b70f-332dd204e920
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1.14.44.5:8080."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1.14.44.5:8080."
+1696734884464	Marionette	INFO	Stopped listening on port 3568
+Dynamically enable window occlusion 1
+1696734888990	geckodriver	INFO	Listening on 127.0.0.1:3642
+1696734892050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilewiviES"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696734892525	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696734892610	Marionette	INFO	Listening on port 3656
+Read port: 3656
+WebDriver BiDi listening on ws://127.0.0.1:3643
+1696734892687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3643/devtools/browser/9f49e328-ee9e-42e6-aad7-978a60cb119d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1.14.44.5:8080."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1.14.44.5:8080."
+1696734949527	Marionette	INFO	Stopped listening on port 3656
+Dynamically enable window occlusion 1
